@@ -10,6 +10,7 @@ header{
     top: 1px;
     background-color: black;
     color: hsl(51, 100%, 42%);
+    margin-bottom: 10px;
 }
 header ul a {
     color: hsl(51, 100%, 42%);
@@ -147,6 +148,8 @@ display: none;
   }   
 #Second-enquiries{
     display: block;
+    margin-top: 10px;
+    text-align: center;
 }
 #Second-enquiries input{
     display: block;
@@ -154,7 +157,6 @@ display: none;
     margin: 10px;
     border: 1px solid hsl(54, 29%, 73%);
     padding: 5px;
-    margin-left: 0px;
 }
 #Second-enquiries button {
     width: 20%;
