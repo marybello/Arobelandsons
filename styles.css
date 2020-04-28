@@ -1,0 +1,147 @@
+#container{
+    margin: 10px;
+    background-color: hsl(51, 100%, 42%);
+    padding: 10px;
+}
+header{
+    width: 100%;
+    height: auto;
+    position: sticky;
+    top: 1px;
+    background-color: black;
+    color: hsl(51, 100%, 42%);
+}
+header ul a {
+    color: hsl(51, 100%, 42%);
+}
+#main{
+    width: 100%;
+    text-align: center;
+}
+#main p{
+    width: 90%;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px 5px black;
+    margin-left: 20px;
+    font-family: sans-serif;
+    color: black;
+    padding: 20px;
+}
+#main p:hover{
+    opacity: 0.9;
+}
+#slider{
+    width: 50%;
+    display: inline-block;
+}
+#enquiries{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+#enquiries input{
+    display: block;
+    width: 70%;
+    margin: 10px;
+    border: 1px solid hsl(54, 29%, 73%);
+    padding: 5px;
+    margin-left: 0px;
+}
+#enquiries button {
+    width: 20%;
+    background-color: chocolate;
+    color: black;
+    height: 40px;
+    border: none;
+}
+#work{
+    width: 100%;
+    border-top: 1px solid black;
+}
+#work #left{
+
+    width: 45%;
+    display: inline-block;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+#work #right{
+    width: 50%;
+padding: 10px;
+margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#work #right ul{
+    list-style-type: none;
+}
+#work #right ul li {
+    width: 70%;
+    background-color: hsl(54, 29%, 73%);
+    border: 1px solid black;
+    margin: 3px;
+}
+#work #right ul li:hover{
+    background-color: hsl(54, 29%, 50%);
+}
+#work #right ul li i{
+    margin-right: 10px;
+    margin-left: 5px;
+}
+#jobs{
+    width: 100%;
+    text-align: center;
+}
+#jobs figure{
+    width: 18%;
+    background-color: hsl(51, 100%, 39%);
+    padding: 5px;
+    display: inline-block;
+    vertical-align: top;
+    height: 200px;
+}
+#jobs figure img{
+    width: 100%;
+    height: 100%;
+}
+#jobs .list{
+
+    height: 50px;
+    color: black;
+    background-color: hsl(51, 100%, 42%);
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:400px){
+
+    #slider{
+        width: 100%;
+        display:block;
+    }
+    #enquiries{
+        display: none;
+    }
+    #work #left{
+        width: 100%;
+        display: block;
+    }
+    #work #right{
+        width: 100%;
+        display: block;
+    }
+  #jobs figure{
+      width: 80%;
+  }   
+
+}
