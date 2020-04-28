@@ -114,7 +114,9 @@ margin: 10px;
     background-color: hsl(51, 100%, 42%);
     text-align: center;
 }
-
+#Second-enquiries{
+display: none;
+}
 
 
 
@@ -143,5 +145,23 @@ margin: 10px;
   #jobs figure{
       width: 80%;
   }   
+#Second-enquiries{
+    display: block;
+}
+#Second-enquiries input{
+    display: block;
+    width: 70%;
+    margin: 10px;
+    border: 1px solid hsl(54, 29%, 73%);
+    padding: 5px;
+    margin-left: 0px;
+}
+#Second-enquiries button {
+    width: 20%;
+    background-color: hsl(51, 100%, 39%);
+    color: black;
+    height: 40px;
+    border: none;
+}
 
 }
