@@ -116,7 +116,7 @@ margin: 10px;
     text-align: center;
 }
 #Second-enquiries{
-display: none;
+display: none!important;
 }
 
 
