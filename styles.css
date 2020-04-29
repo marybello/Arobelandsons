@@ -205,6 +205,9 @@ footer{
     width: 100%;
     display:block;
 }
+#different-services .sub-footer ul{
+    list-style-type: none;
+}
 #contact{
     display: block;
     width: 100%;
