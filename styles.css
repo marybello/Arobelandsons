@@ -1,19 +1,35 @@
 #container{
     margin: 10px;
-    background-color: hsl(51, 100%, 42%);
+    background-color: hsl(0, 51%, 33%);
     padding: 10px;
 }
 header{
     width: 100%;
     height: auto;
-    position: sticky;
-    top: 1px;
-    background-color: black;
-    color: hsl(51, 100%, 42%);
+    position: relative;
+    top: 0px;
+    background-color: #563838;
+    color:white;
     margin-bottom: 10px;
 }
-header ul a {
-    color: hsl(51, 100%, 42%);
+nav{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+nav p{
+    display: inline;
+}
+
+
+header ul a{
+    color: white;
+}
+header img{
+    display: inline!important;
+}
+header button{
+    display: none;
 }
 #main{
     width: 100%;
@@ -25,7 +41,7 @@ header ul a {
     box-shadow: 5px 5px 5px 5px black;
     margin-left: 20px;
     font-family: sans-serif;
-    color: black;
+    color: white;
     padding: 20px;
 }
 #main p:hover{
@@ -98,7 +114,6 @@ margin: 10px;
 }
 #jobs figure{
     width: 18%;
-    background-color: hsl(51, 100%, 39%);
     padding: 5px;
     display: inline-block;
     vertical-align: top;
@@ -109,28 +124,49 @@ margin: 10px;
     height: 100%;
 }
 #jobs .list{
-
-    height: 50px;
-    color: black;
-    background-color: hsl(51, 100%, 42%);
+  color: black;
     text-align: center;
 }
 #Second-enquiries{
 display: none!important;
 }
+#contact{
+    display: inline-block;
+    width: 45%;
+    position: relative;
+    left: 20px;
+}
+#contact p{
+    font-size:25px;
+}
+#different-services{
+    width: 100%;
+    background-color: #BF988F;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+#different-services .sub-footer{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+}
+footer{
+    text-align: center;
+}
 
 
 
 
 
 
-
-
-@media (max-width:450px){
+@media (max-width:480px){
 
     #slider{
         width: 100%;
-        display:block;
+        display:block!important;
+    }
+    nav{
+        height: auto;
     }
     #enquiries{
         display: none;
@@ -147,7 +183,7 @@ display: none!important;
       width: 80%;
   }   
 #Second-enquiries{
-    display: block;
+    display: block!important;
     margin-top: 10px;
     text-align: center;
 }
@@ -164,6 +200,15 @@ display: none!important;
     color: black;
     height: 40px;
     border: none;
+}
+#different-services .sub-footer{
+    width: 100%;
+    display:block;
+}
+#contact{
+    display: block;
+    width: 100%;
+    left: 2px;
 }
 
 }
