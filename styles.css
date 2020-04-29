@@ -1,6 +1,6 @@
 #container{
     margin: 10px;
-    background-color: hsl(0, 51%, 33%);
+    background-color: #64485C;
     padding: 10px;
 }
 header{
@@ -8,7 +8,7 @@ header{
     height: auto;
     position: relative;
     top: 0px;
-    background-color: #563838;
+    background-color: #2E1114;
     color:white;
     margin-bottom: 10px;
 }
@@ -16,6 +16,7 @@ nav{
     width: 100%;
     height: 40px;
     margin-bottom: 10px;
+    margin-left: 10px;
 }
 nav p{
     display: inline;
@@ -41,7 +42,7 @@ header button{
     box-shadow: 5px 5px 5px 5px black;
     margin-left: 20px;
     font-family: sans-serif;
-    color: white;
+    color: black;
     padding: 20px;
 }
 #main p:hover{
@@ -66,7 +67,7 @@ header button{
 }
 #enquiries button {
     width: 20%;
-    background-color: chocolate;
+    background-color: #501B1D;
     color: black;
     height: 40px;
     border: none;
@@ -111,6 +112,7 @@ margin: 10px;
 #jobs{
     width: 100%;
     text-align: center;
+    padding: 10px;
 }
 #jobs figure{
     width: 18%;
@@ -141,7 +143,7 @@ display: none!important;
 }
 #different-services{
     width: 100%;
-    background-color: #BF988F;
+    background-color: #EDF5E1;
     text-align: left;
     border-bottom: 1px solid white;
 }
@@ -197,7 +199,7 @@ footer{
 }
 #Second-enquiries button {
     width: 20%;
-    background-color: hsl(51, 100%, 39%);
+    background-color: #501B1D;
     color: black;
     height: 40px;
     border: none;
