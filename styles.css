@@ -142,13 +142,14 @@ display: none!important;
 #different-services{
     width: 100%;
     background-color: #BF988F;
-    text-align: center;
+    text-align: left;
     border-bottom: 1px solid white;
 }
 #different-services .sub-footer{
     width: 30%;
     display: inline-block;
     vertical-align: top;
+    margin-left: 10px;
 }
 footer{
     text-align: center;
@@ -204,9 +205,6 @@ footer{
 #different-services .sub-footer{
     width: 100%;
     display:block;
-}
-#different-services .sub-footer ul{
-    list-style-type: none;
 }
 #contact{
     display: block;
