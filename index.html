@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -51,55 +52,28 @@
 <nav><p style="width: 60%;">REACH US  <i class="fa fa-phone"></i> +(234)8136611215 or +(234)8065440566 <i class="fa fa-envelope"></i> arobelluv@gmail.com</p>
 </nav>
 
-<div></div>
 <div id="slider">
-    <div class="amazingslider-wrapper" id="amazingslider-wrapper-1" style="display:block;max-width:500px;margin:0px auto 0px;">
-        <div class="amazingslider" id="amazingslider-1" style="display:block;margin:0 auto;">
-            <ul class="amazingslider-slides" style="display:none;">
-                <li><img src="images/arobel.jpg" alt="1"  title="1" />
-                </li>
-                <li><img src="images/picture2.jpg" alt="2"  title="2" data-duration="3000" />
-                </li>
-                <li><img src="images/picture3.jpg" alt="3"  title="3" />
-                </li>
-                <li><img src="images/picture4.jpg" alt="4"  title="4" />
-                </li>
-                <li><img src="images/picture5.jpg" alt="5"  title="5" />
-                </li>
-                <li><img src="images/picture9.jpg" alt="6"  title="6" />
-                </li>
-                <li><img src="images/picture11.jpg" alt="7"  title="7" />
-                </li>
-                <li><img src="images/picture12.jpg" alt="8"  title="8" />
-                </li>
-                <li><img src="images/picture13.jpg" alt="9"  title="9" data-duration="4999" />
-                </li>
-            </ul>
-            <ul class="amazingslider-thumbnails" style="display:none;">
-                <li><img src="images/arobel-tn.jpg" alt="1" title="1" /></li>
-                <li><img src="images/picture2-tn.jpg" alt="2" title="2" /></li>
-                <li><img src="images/picture3-tn.jpg" alt="3" title="3" /></li>
-                <li><img src="images/picture4-tn.jpg" alt="4" title="4" /></li>
-                <li><img src="images/picture5-tn.jpg" alt="5" title="5" /></li>
-                <li><img src="images/picture9-tn.jpg" alt="6" title="6" /></li>
-                <li><img src="images/picture11-tn.jpg" alt="7" title="7" /></li>
-                <li><img src="images/picture12-tn.jpg" alt="8" title="8" /></li>
-                <li><img src="images/picture13-tn.jpg" alt="9" title="9" /></li>
-            </ul>
-        <div class="amazingslider-engine"><a href="http://amazingslider.com" title="Image Slider jQuery">Image Slider jQuery</a></div>
-        </div>
-    </div>
+<div id="bgslider">
+  <figure>
+    <img src="pictures/arobel.jpg" alt="Slider">
+    <img src="pictures/picture3.jpg" alt="Slider">
+    <img src="pictures/picture13.jpg" alt="Slider">
+    <img src="pictures/picture5.jpg" alt="Slider">
+    <img src="pictures/picture11.jpg" alt="Slider">
+</figure>
+</div>
 </div>
 <div id="enquiries">
     <h2>Enquiries</h2>
-    <form action="">
+    <form action="subscribersform.php" method="POST" enctype="multipart/form-data"
+    name="EmailTestForm">
 
-        <input type="text" placeholder="Your Name">
-        <input type="text" placeholder="Your Email">
+        <input type="text" placeholder="Your Name" value="name">
+        <input type="email" placeholder="Your Email" value="email">
         <input type="text" placeholder="Phone number">
-        <input type="text" placeholder="Subject">
-        <input style="height: 100px; text-align: left;"  type="text" placeholder="Message">
-        <button>Send</button>
+        <input type="text" placeholder="Subject" >
+        <textarea value="message" style="height: 100px; width: 70%; text-align: left; display: block; margin-bottom: 10px;"  type="text" placeholder="Message"></textarea>
+        <button type="submit">Send</button>
     </form>
 
 </div>
@@ -279,4 +253,7 @@ POWERED BY MaryamBello <a href="https://marybello.github.io/flip-portfolio">WEB 
 </footer>
 
 </body>
+
+  
+   
 </html>
